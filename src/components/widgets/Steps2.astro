@@ -42,7 +42,7 @@ const {
             callToAction &&
             callToAction.text &&
             callToAction.href && (
-              <a class="btn btn-primary mb-12" href={callToAction.href} target="_blank" rel="noopener">
+              <a class="btn btn-primarybase mb-12" href={callToAction.href} target="_blank" rel="noopener">
                 {callToAction.icon && <Icon name={callToAction.icon} class="w-5 h-5 mr-1 -ml-1.5  rtl:-mr-1.5 rtl:ml-1" />}
                 {callToAction.text}
               </a>
@@ -58,7 +58,7 @@ const {
             ? items.map(({ title: title2, description, icon }, index) => (
                 <li class="flex md:-mx-4">
                   <div class="pr-4 sm:pl-4 rtl:pr-0 rtl:pl-4 rtl:sm:pl-0 rtl:sm:pr-4">
-                    <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold rounded-full bg-blue-100 text-primary">
+                    <span class="flex w-16 h-16 mx-auto items-center justify-center text-2xl font-bold rounded-full bg-blue-100 text-primarybase">
                       {icon ? <Icon name={icon} class="w-6 h-6 icon-bold" /> : index + 1}
                     </span>
                   </div>

@@ -53,7 +53,7 @@ const {
                           ({ description, icon }) =>
                             description && (
                               <li class="mb-1.5 flex items-start space-x-3 leading-7">
-                                <div class="rounded-full bg-primary mt-1">
+                                <div class="rounded-full bg-primarybase mt-1">
                                   <Icon name={icon ? icon : 'tabler:check'} class="w-5 h-5 font-bold p-1 text-white" />
                                 </div>
                                 <span>{description}</span>
@@ -64,7 +64,7 @@ const {
                     )}
                   </div>
                   {callToAction && (
-                    <div class={`flex justify-center btn ${hasRibbon ? 'btn-primary' : ''}`}>
+                    <div class={`flex justify-center btn ${hasRibbon ? 'btn-primarybase' : ''}`}>
                       {typeof callToAction === 'string' ? (
                         <Fragment set:html={callToAction} />
                       ) : (

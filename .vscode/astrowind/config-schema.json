@@ -282,10 +282,10 @@
                     "bgPage": {
                       "type": "string"
                     },
-                    "primary": {
+                    "primarybase": {
                       "type": "string"
                     },
-                    "secondary": {
+                    "secondarybase": {
                       "type": "string"
                     },
                     "accent": {
@@ -315,8 +315,8 @@
                     "heading",
                     "muted",
                     "bgPage",
-                    "primary",
-                    "secondary",
+                    "primarybase",
+                    "secondarybase",
                     "accent",
                     "info",
                     "success",
@@ -362,10 +362,10 @@
                     "bgPage": {
                       "type": "string"
                     },
-                    "primary": {
+                    "primarybase": {
                       "type": "string"
                     },
-                    "secondary": {
+                    "secondarybase": {
                       "type": "string"
                     },
                     "accent": {
@@ -395,8 +395,8 @@
                     "heading",
                     "muted",
                     "bgPage",
-                    "primary",
-                    "secondary",
+                    "primarybase",
+                    "secondarybase",
                     "accent",
                     "info",
                     "success",

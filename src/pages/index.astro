@@ -11,9 +11,11 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Logos from '~/components/widgets/Logos.astro';
+import FlowbiteFeatures from '~/components/widgets/FlowbiteFeatures.astro';
 
 const metadata = {
-  title: 'AstroWind — Free template for creating websites with Astro + Tailwind CSS',
+  title: 'ReputeBee - Make Customers your best Salespeople. Skyrocket🚀 Sales with Trusted Testimonials',
   ignoreTitleTemplate: true,
 };
 ---
@@ -22,29 +24,89 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: '~/assets/images/hero.png', alt: 'AstroWind Hero Image' }}
+    callToAction={{ text: 'Get your Wall Of Love Page', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:arrow-right' }}
+
+    image={{ src: '~/assets/images/hero_v5.svg', alt: 'ReputeBee Hero Image' , objectFit: 'fill'}}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden xl:inline">creating websites with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 2.0</span> + Tailwind CSS
+      <span class="hidden xl:inline">Make Customers your best Salespeople.  </span>Skyrocket🚀 Sales with Trusted 
+      <span class="text-accent dark:text-white highlight"> Testimonials</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 2.0
-        + Tailwind CSS.</span
+      <span class="hidden sm:inline"> With
+        <span class="font-semibold">ReputeBee</span> You can collect, manage and share testimonials in one place.</span
       >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
-       Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages
-      & Blogs.
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">ReputeBee: No-pain Testimonials</span>
+      We collect your testimonials and make it shine. Show off your customer love on your website, social media, emails and sales pitches.
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
 
   <Note />
+
+  <Logos />
+
+
+
+  <!-- Content Widget **************** -->
+
+<FlowbiteFeatures heading='Collect More Testimonials with Less Work' 
+      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image_alt='Collect More Testimonials with Less Work'>
+      Do you collect testimonials through email and save them in Excel sheets for future use? <br/>
+      Your testimonials die a hundred deaths, buried in email, forgotten in spreadsheets and overlooked in the web design task list. <br/>
+      Reputebee automatically collects, organizes and displays testimonials with little work.   Now you can get more social proof with almost no effort./Set it and forget!
+</FlowbiteFeatures>
+
+<FlowbiteFeatures heading='Add Your Reviews to Your Website Effortlessly' 
+      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image_alt='Add Your Reviews to Your Website Effortlessly'
+      cta='Get your first Testimonial Widget in minutes!' 
+      isReversed>
+      Whenever you get a glowing review, you want to showcase it on your website. <br/>
+      But editing your website can be such a time-sink everytime! Not to mention all the other activities you need to put on hold!<br/>
+      Reputebee lets you add new reviews from Reputebee app effortlessly. Embed code once in your website and you can switch the reviews featured on your website whenever you like with a single tap in our app. It’s that fast and simple.
+</FlowbiteFeatures>
+
+<FlowbiteFeatures heading='Discover and Feature Reviews from Different Platforms' 
+      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image_alt='Discover and Feature Reviews from Different Platforms'
+      cta='Gather all your Testimonials in one place Now!'>
+      You want to leverage every valuable testimonial but they get lost through the cracks!<br/>
+      Monitoring different platforms for new reviews and the struggles to embed them in your site is a real drain. <br/> 
+      Reputebee monitors and discovers new reviews from various sources with an approval process. Get new reviews featured at the click of a button.
+</FlowbiteFeatures>
+
+<FlowbiteFeatures heading='Showcase Testimonials from every Ideal Customers Profile' 
+      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image_alt='Showcase Testimonials from every Ideal Customers Profile'
+      cta='Get your message across, effortlessly! Lets Start' 
+      isReversed>
+      You want to show your Customers how your product solves their specific problems. <br/>
+      But making a landing page that resonates with different customer segments is a challenge. <br/> 
+      Reputebee helps you collect and display testimonials from every ideal customer profile on your website. This helps you build trust and loyalty with relevant and personalized social proof.
+
+</FlowbiteFeatures>
+
+<FlowbiteFeatures heading="Don't Sacrifice Page Speed for social proof" 
+      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image_alt="Don't Sacrifice Page Speed for social proof" >
+      You want to showcase testimonials from different sources, to highlight your customers trust.<br/>
+      But  tweet embeds and other testimonial embeds ruin your website’s performance and appearance. <br/> 
+      With Reputebee, you can feature reviews from all sources on your landing page with super-fast page load time and uniform, stunning UI.
+
+</FlowbiteFeatures>
+
+<FlowbiteFeatures heading='Unleash Trust, Amplify Conversions, Reduce Churn' 
+      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+      image_alt='Unleash Trust, Amplify Conversions, Reduce Churn'
+      cta='Lets Ignite Growth with Social Proof!' 
+      isReversed>
+      Reputebee helps in inspiring potential clients through authentic praise captured for specific usecases and customer segments. </br>
+      Witness conversions surge as prospects, influenced by powerful social proof, become eager customers. Elevate sales, diminish churn, and foster unwavering credibility and loyalty.
+</FlowbiteFeatures>
 
   <!-- Features Widget *************** -->
 
@@ -92,9 +154,6 @@ const metadata = {
       },
     ]}
   />
-
-  <!-- Content Widget **************** -->
-
   <Content
     isReversed
     tagline="Inside template"

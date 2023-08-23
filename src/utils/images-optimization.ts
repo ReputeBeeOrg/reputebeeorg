@@ -113,7 +113,7 @@ const getStyle = ({
   height,
   aspectRatio,
   layout,
-  objectFit = 'cover',
+  objectFit = 'fill',
   objectPosition = 'center',
   background,
 }: {

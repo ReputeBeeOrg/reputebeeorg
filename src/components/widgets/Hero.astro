@@ -21,14 +21,14 @@ const {
       <div class="text-center pb-10 md:pb-16 max-w-screen-lg mx-auto">
         {tagline && (
           <p
-            class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase"
+            class="text-base text-secondarybase dark:text-blue-200 font-bold tracking-wide uppercase"
             set:html={tagline}
           />
         )}
         {
           title && (
             <h1
-              class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
+              class="text-5xl md:text-6xl font-bold leading-normal tracking-tight mb-4 font-heading dark:text-gray-200"
               set:html={title}
             />
           )
@@ -42,7 +42,7 @@ const {
                   {typeof callToAction === 'string' ? (
                     <Fragment set:html={callToAction} />
                   ) : (
-                    <a class="btn btn-primary sm:mb-0 w-full" href={callToAction?.href} target="_blank" rel="noopener">
+                    <a class="btn btn-primarybase sm:mb-0 w-full" href={callToAction?.href} target="_blank" rel="noopener">
                       {callToAction?.icon && (
                         <>
                           <Icon name={callToAction.icon} class="w-5 h-5 mr-1 -ml-1.5 rtl:-mr-1.5 rtl:ml-1" />
@@ -91,6 +91,7 @@ const {
                   loading="eager"
                   width={1024}
                   height={576}
+                  objectFit="fill"
                   {...image}
                 />
               )}
