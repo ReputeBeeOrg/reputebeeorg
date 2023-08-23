@@ -1,4 +1,4 @@
-FROM node:current-alpine AS runtime
+FROM node:current-bullseye AS runtime
 WORKDIR /app
 
 COPY ./package.json /app
