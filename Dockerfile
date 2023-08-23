@@ -1,12 +1,8 @@
 FROM node:lts AS runtime
 WORKDIR /app
 
-COPY . .
+COPY ./package.json /app
 
-RUN npm install
-RUN npm run build
+RUN npm install && npm cache clean --force
 
-ENV HOST=0.0.0.0
-ENV PORT=3000
-EXPOSE 3000
-CMD node ./dist/server/entry.mjs
+ENV PATH ./node_modules/.bin/:$PATH
