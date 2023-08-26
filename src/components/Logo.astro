@@ -1,12 +1,23 @@
 ---
 import { SITE_CONFIG } from '~/utils/config';
-import Logo from '~/assets/images/reputebee_logo_Right_text.svg';
+import Logo from '~/assets/images/logo2.svg';
 import Image from './common/Image.astro';
 ---
 
-<span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
+<span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold whitespace-nowrap dark:text-white">
   <!--Image src={Logo} alt={SITE_CONFIG?.name} class="w-8 h-8 md:w-10 md:h-10" /> -->
-    <svg width="40" height="40" viewBox="0 0 105.83333 105.83334"><circle class="circle-fill circle-stroke" id="path16763" cx="53.007782" cy="47.186947" r="45.864033" style="--primary-color: #3D0F89; --secondary-color: #FFC5B8;"></circle><path class="path-fill path-stroke" d="m 55.419691,91.440354 c 0,0 0.0015,7.969998 -0.128431,9.676196 C 54.541708,110.96223 78.816998,84.556029 89.255832,73.257111 76.25236,80.852844 55.419687,91.440354 55.419691,91.440354 Z" id="path7361-7" sodipodi:nodetypes="cscc" style="--primary-color: #3D0F89; --secondary-color: #FFC5B8;"></path><path class="path2-fill path2-stroke" d="m 38.590008,28.744218 c 12.056653,-0.451616 11.208208,3.097929 11.858848,8.116348 2.094139,13.498581 -8.975862,27.584414 -20.716916,29.955066 -1.976482,0.344688 -5.220208,-5.575783 -3.880238,-9.031799 5.702672,-0.502959 17.329743,-13.008148 4.916941,-11.461917 -2.236157,-2.610691 -1.746785,-12.299661 -1.29373,-13.670626 0.453054,-1.370964 -0.29089,-3.27632 9.115095,-3.907072 z" id="path45975-5" sodipodi:nodetypes="ccccczc" style="--primary-color: #3D0F89; --secondary-color: #FFC5B8;"></path><path class="path2-fill path2-stroke" d="m 68.366104,28.372173 c 12.056655,-0.451617 11.208201,3.097929 11.85885,8.116348 2.094139,13.498581 -8.975864,27.584414 -20.716918,29.955066 -1.976482,0.344688 -5.220208,-5.575783 -3.880238,-9.031799 5.702673,-0.50296 17.329743,-13.008149 4.916941,-11.461917 -2.236157,-2.610691 -1.746785,-12.299662 -1.29373,-13.670626 0.453054,-1.370964 -0.29089,-3.27632 9.115095,-3.907072 z" id="path45975-5-3" sodipodi:nodetypes="ccccczc" style="--primary-color: #3D0F89; --secondary-color: #FFC5B8;"></path></svg>
 
+ <div class="flex flex-row gap-2"> 
+ <Image src={Logo} alt={SITE_CONFIG?.name} class="w-5 h-5 md:w-6 md:h-6" />
+
+
+
+<span class="text-primary-700 text-lg align-top">
   {SITE_CONFIG?.name} 
+</span>
+
+
+</div>
+
+
 </span>

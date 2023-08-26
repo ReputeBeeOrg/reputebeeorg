@@ -39,6 +39,10 @@
   .btn-primarybase {
     @apply font-semibold bg-primarybase text-white border-primarybase hover:bg-secondarybase hover:border-secondarybase hover:text-white dark:text-white dark:bg-primarybase dark:border-primarybase dark:hover:border-secondarybase dark:hover:bg-secondarybase;
   }
+
+  .btn-secondarybase {
+    @apply font-semibold bg-secondary-600 text-white border-secondary-300 hover:bg-secondary-700 hover:border-secondary-400 hover:text-white dark:text-white dark:bg-primarybase dark:border-primarybase dark:hover:border-secondarybase dark:hover:bg-secondarybase;
+  }
 }
 
 #header.scroll > div:first-child {

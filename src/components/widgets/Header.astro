@@ -60,7 +60,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
   <div class="absolute inset-0"></div>
   <div
     class:list={[
-      "relative text-default py-3 px-3 md:px-6 mx-auto w-full md:flex md:justify-between",
+      "relative text-default py-1 px-3 md:px-6 mx-auto w-full md:flex md:justify-between",
       {
         "max-w-7xl": !isFullWidth,
       },
@@ -109,7 +109,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
               ) : (
                 <a
                   class:list={[
-                    "hover:text-link dark:hover:text-white px-4 py-3 flex items-centers",
+                    "uppercase text-xs  font-bold text-gray-600 hover:text-primary-600 dark:hover:text-white px-4 py-3 flex items-centers",
                     { "aw-link-active": href === currentPath }
                   ]}
                   href={href}
@@ -147,7 +147,7 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`
           actions?.length ? (
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               {actions.map(({ text, href, class: className }) => (
-                <a class:list={["btn ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm", className]} href={href}>
+                <a class:list={["ml-2 py-1.5 px-2.5 md:px-6 text-xs uppercase font-semibold shadow-none text-sm text-gray-700 hover:text-secondary-600", className]} href={href}>
                   <Fragment set:html={text} />
                 </a>
               ))}
