@@ -28,13 +28,13 @@ const {
         {
           title && (
             <h1
-              class="text-5xl md:text-6xl font-bold tracking-tight mb-4 font-heading dark:text-gray-200 !leading-tight"
+              class="text-5xl md:text-6xl font-normal tracking-tight mb-4 font-heading dark:text-gray-200 !leading-snug"
               set:html={title}
             />
           )
         }
         <div class="max-w-3xl mx-auto">
-          {subtitle && <p class="text-xl text-muted mb-6 dark:text-slate-300" set:html={subtitle} />}
+          {subtitle && <p class="text-xl text-muted mb-6  tracking-tight dark:text-slate-300" set:html={subtitle} />}
           <div class="max-w-xs sm:max-w-md m-auto flex flex-nowrap flex-col sm:flex-row sm:justify-center gap-4">
             {
               callToAction && (
