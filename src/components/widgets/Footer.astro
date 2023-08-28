@@ -2,7 +2,11 @@
 import { Icon } from 'astro-icon/components';
 import { SITE_CONFIG } from '~/utils/config';
 import { getHomePermalink } from '~/utils/permalinks';
+// import Logo from '~/assets/images/logo2.svg';
+// import Image from '~/components/common/Image.astro';
+import Logo from "~/components/Logo.astro";
 
+// src/components/common/Image.astro
 interface Link {
   text?: string;
   href?: string;
@@ -32,7 +36,14 @@ const { socialLinks = [], secondarybaseLinks = [], links = [], footNote = '', th
     <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
       <div class="col-span-12 lg:col-span-4">
         <div class="mb-2">
-          <a class="inline-block font-bold text-xl" href={getHomePermalink()}>{SITE_CONFIG?.name}</a>
+          <!-- <a class="inline-block font-bold text-xl" href={getHomePermalink()}>
+            <Image src={Logo} alt={SITE_CONFIG?.name} class="w-5 h-5 md:w-6 md:h-6" />
+          </a> -->
+          <a class="inline-block font-bold text-xl" href={getHomePermalink()}>
+            <Logo />
+          </a>
+          
+          <!-- <a class="inline-block font-bold text-xl" href={getHomePermalink()}>{SITE_CONFIG?.name}</a> -->
         </div>
         <div class="text-sm text-muted">
           {
@@ -92,7 +103,7 @@ const { socialLinks = [], secondarybaseLinks = [], links = [], footNote = '', th
       }
 
       <div class="text-sm mr-4 dark:text-slate-400">
-        <Fragment set:html={footNote} />
+        <!-- <Fragment set:html={footNote} /> -->
       </div>
     </div>
   </div>

@@ -30,7 +30,10 @@ export const headerData = {
     },
     {
       text: 'Contact',
-      href: getPermalink('/contact'),
+      // href: getPermalink('/contact'),
+      target: '_blank',
+      href: 'https://forms.gle/dLJFjKiahKkzRBuY6',
+      
     },
     {
       text: 'Blog',
@@ -133,7 +136,19 @@ export const headerData = {
     //   href: '#',
     // },
   ],
-  actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
+  //actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
+  actions: [
+    {
+      type: 'ghost',
+      text: 'Login',
+      href: 'https://app.reputebee.com/accounts/login/?next=/',
+    },
+    {
+      type: 'primarybase',
+      text: 'Sign Up',
+      href: 'https://app.reputebee.com/accounts/signup/?next=/',
+    },
+  ],
 };
 
 export const footerData = {
@@ -186,6 +201,8 @@ export const footerData = {
   secondarybaseLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Cookie Policy', href: getPermalink('/cookie') },
+    
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/reputebee' },
