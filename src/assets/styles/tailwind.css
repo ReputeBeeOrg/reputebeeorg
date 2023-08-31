@@ -13,6 +13,15 @@
   .bg-dark {
     background-color: var(--aw-color-bg-page-dark);
   }
+
+  .bg-highlight {
+    background-color: var(--aw-color-bg-page-highlight);
+  }
+
+  .bg-highlight-dark {
+    background-color: var(--aw-color-bg-page-highlight-dark);
+  }
+
 }
 
 @layer components {

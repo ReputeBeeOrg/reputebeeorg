@@ -1,9 +1,9 @@
 ---
 const { heading, image, image_alt,
          cta='Get your Wall of Love Now',
-         isReversed = false } = Astro.props;
+         isReversed = false, bgClass='bg-white' } = Astro.props;
 ---
-<section class="bg-white dark:bg-gray-900">
+<section class=`${bgClass} dark:bg-gray-900`>
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid  md:grid-cols-2 sm:py-16 lg:px-6">
         <img class="mx-auto w-full rounded-lg bg-gray-500 shadow-lg"
                   width={500}
