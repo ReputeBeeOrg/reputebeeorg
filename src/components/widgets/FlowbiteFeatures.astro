@@ -1,16 +1,23 @@
 ---
-const { heading, image, image_alt,
+import Image from '~/components/common/Image.astro';
+const { heading, image,
          cta='Get your Wall of Love Now',
          isReversed = false, bgClass='bg-white' } = Astro.props;
 ---
 <section class=`${bgClass} dark:bg-gray-900`>
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid  md:grid-cols-2 sm:py-16 lg:px-6">
-        <img class="mx-auto w-full rounded-lg bg-gray-500 shadow-lg"
-                  width={500}
-                  height={500}
-                  widths={[400, 768]}
-                  sizes="(max-width: 768px) 100vw, 432px"
-                  layout="responsive" src={image} alt="{image_alt}"/> 
+        
+
+                  <Image
+                    class="mx-auto rounded-md w-full"
+                    widths={[400, 768, 1024]}
+                    sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+                    loading="eager"
+
+                    objectFit="fill"
+                    {...image}
+                  />
+        
         <div class={`mt-4 md:mt-0 ${isReversed ? 'order-first' : ''}`}>
             <h2 class="mb-4 text-3xl tracking-tight font-medium leading-snug font-heading text-gray-900 dark:text-white">{heading}</h2>
             <p class="mb-6  text-gray-700 text-base dark:text-gray-200"><slot/></p>

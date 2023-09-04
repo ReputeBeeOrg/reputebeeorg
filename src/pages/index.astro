@@ -46,7 +46,7 @@ const metadata = {
   <Hero
     callToAction={{ text: 'Get your Wall Of Love Page', href: 'https://app.reputebee.com/accounts/signup/?next=/', icon: 'tabler:arrow-right' }}
 
-    image={{ src: '~/assets/images/hero_reputebee_v4.svg', alt: 'ReputeBee Hero Image' , objectFit: 'fill'}}
+    image={{ src: '~/assets/images/hero_reputebee_v6.svg', alt: 'ReputeBee Hero Image' , objectFit: 'fill'}}
   >
     <Fragment slot="title">
       <span class="hidden xl:inline"></span>Convert Prospects into Paying Customers with  
@@ -74,15 +74,15 @@ const metadata = {
   <!-- Content Widget **************** -->
 <span class="bg-primary-25 bg-secondary-25 bg-white"></span>
 <FlowbiteFeatures bgClass='bg-primary-25' heading='Collect More Testimonials with Less Work' 
-      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      image_alt='Collect More Testimonials with Less Work'>
+      image={{ src: '~/assets/images/LessWork.webp', alt: 'Collect More Testimonials with Less Work' , objectFit: 'fill'}}
+ >
       Do you collect testimonials through email and save them in Excel sheets for future use? <br style="margin-bottom: 10px;">
       Your testimonials die a hundred deaths, buried in email, forgotten in spreadsheets and overlooked in the web design task list. <br style="margin-bottom: 10px;">
       Reputebee automatically collects, organizes and displays testimonials with little work.   Now you can get more social proof with almost no effort./Set it and forget!
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading='Add Your Reviews to Your Website Effortlessly' 
-      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+image={{ src: '~/assets/images/amplify.webp', alt: 'Add Your Reviews to Your Website Effortlessly' , objectFit: 'fill'}}
       image_alt='Add Your Reviews to Your Website Effortlessly'
       cta='Get your first Testimonial Widget in minutes!' 
       bgClass="bg-primary-10"
@@ -93,7 +93,7 @@ const metadata = {
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading='Discover and Feature Reviews from Different Platforms' 
-      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+image={{ src: '~/assets/images/DiscoverDifferentPlatforms.webp', alt: 'Discover and Feature Reviews from Different Platforms' , objectFit: 'fill'}}
       image_alt='Discover and Feature Reviews from Different Platforms'
       bgClass="bg-secondary-25"
       cta='Gather Your Testimonials Together!'>
@@ -103,7 +103,8 @@ const metadata = {
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading='Showcase Testimonials from every Ideal Customers Profile' 
-      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+image={{ src: '~/assets/images/IdealCustomersProfile.webp', alt: 'Showcase Testimonials from every Ideal Customers Profile' , objectFit: 'fill'}}
+
       image_alt='Showcase Testimonials from every Ideal Customers Profile'
       cta='Tailor Your Pitch with Reputebee!' 
       bgClass="bg-secondary-10"
@@ -115,7 +116,7 @@ const metadata = {
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading="Don't Sacrifice Page Speed for social proof" 
-      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+image={{ src: '~/assets/images/speed.webp', alt: 'Don\'t Sacrifice Page Speed for social proof' , objectFit: 'fill'}}
       image_alt="Don't Sacrifice Page Speed for social proof" >
       You want to showcase testimonials from different sources, to highlight your customers trust.<br style="margin-bottom: 10px;">
       But  tweet embeds and other testimonial embeds ruin your website’s performance and appearance. <br style="margin-bottom: 10px;"> 
@@ -124,14 +125,14 @@ const metadata = {
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading='Unleash Trust, Amplify Conversions, Reduce Churn' 
-      image='https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+image={{ src: '~/assets/images/amplify.webp', alt: 'Unleash Trust, Amplify Conversions, Reduce Churn' , objectFit: 'fill'}}
       image_alt='Unleash Trust, Amplify Conversions, Reduce Churn'
       cta='Lets Ignite Growth with Social Proof!' 
       bgClass="bg-primary-10"
       isReversed>
       Reputebee helps in inspiring potential clients through authentic praise captured for specific usecases and customer segments. </br>
       Witness conversions surge as prospects, influenced by powerful social proof, become eager customers. Elevate sales, diminish churn, and foster unwavering credibility and loyalty.
-</FlowbiteFeatures>
+</FlowbiteFeatures> <!-- -->
 
 
 <Steps
@@ -173,44 +174,32 @@ image={{
   <Features
     id="features"
     tagline="Features"
-    title="What you get with AstroWind"
-    subtitle="One of the most professional and comprehensive templates currently on the market. Most starred & forked Astro theme in 2022."
+    title="What’s in it for you with ReputeBee? "
+    subtitle="Discover the power of effortless social proof! that helps you collect, organize, and display testimonials with ease. Some of the key features as below."
     items={[
       {
-        title: 'Astro + Tailwind CSS Integration',
+        title: 'Effortless Testimonial Collection',
         description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+          'ReputeBee automatically collects and organizes testimonials, saving you time and effort.',
         icon: 'tabler:brand-tailwind',
       },
       {
-        title: 'Ready-to-use Components',
+        title: 'Easy Website Integration',
         description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+          'ReputeBee allows you to easily add new reviews to your website with just a few clicks.',
         icon: 'tabler:components',
       },
       {
-        title: 'Best Practices',
+        title: 'Multi-Platform Review Monitoring',
         description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
+          'ReputeBee monitors and discovers new reviews from various sources, ensuring that you never miss a valuable testimonial.',
         icon: 'tabler:list-check',
       },
       {
-        title: 'Excellent Page Speed',
+        title: 'Personalized Social Proof',
         description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+          'ReputeBee helps you collect and display testimonials from every ideal customer profile, allowing you to build trust and loyalty with relevant and personalized social proof.',
         icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
       },
     ]}
   />
