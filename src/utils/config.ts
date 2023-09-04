@@ -61,8 +61,8 @@ export interface AppBlogConfig {
 export interface AnalyticsConfig {
   vendors: {
     googleAnalytics: {
-      id?: string;
-      partytown?: boolean;
+      id?: 'G-LCX52BW8LB';
+      partytown?: true;
     };
   };
 }
