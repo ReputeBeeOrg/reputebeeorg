@@ -1,6 +1,6 @@
 up:
 	clear
-	docker compose up
+	npm run start
 stop:
 	docker compose stop
 down:
