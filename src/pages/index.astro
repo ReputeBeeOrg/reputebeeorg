@@ -15,7 +15,7 @@ import Logos from '~/components/widgets/Logos.astro';
 import FlowbiteFeatures from '~/components/widgets/FlowbiteFeatures.astro';
 import { headerData } from '~/navigation';
 import Header from '~/components/widgets/Header.astro';
-
+import { Icon } from "astro-icon/components";
 
 const metadata = {
   title: 'ReputeBee - Make Customers your best Salespeople. Skyrocket🚀 Sales with Trusted Testimonials',
@@ -80,9 +80,11 @@ const metadata = {
 <FlowbiteFeatures bgClass='bg-primary-25' heading='Collect More Testimonials with Less Work' 
       image={{ src: '~/assets/images/LessWork.svg', alt: 'Collect More Testimonials with Less Work' , objectFit: 'fill'}}
  >
-      Do you collect testimonials through email and save them in Excel sheets for future use? <br style="margin-bottom: 10px;">
-      Your testimonials die a hundred deaths, buried in email, forgotten in spreadsheets and overlooked in the web design task list. <br style="margin-bottom: 10px;">
-      Reputebee automatically collects, organizes and displays testimonials with little work.   Now you can get more social proof with almost no effort./Set it and forget!
+      <div class="flex gap-2  items-start"> <Icon name="tabler:help-hexagon" class="text-primary-700 w-16 h-16"/><div><p class="">Tired of losing valuable testimonials in the email abyss? </p> <p class="">Your testimonials often get buried in emails, forgotten in spreadsheets, and lost in the web design to-do list.</p></div></div>
+     <br style="margin-bottom: 10px;">
+    
+     <div class="flex gap-2  items-start"> <Icon name="tabler:jetpack " class="text-primary-700 w-16 h-16"/><div> <p class="font-medium"> Reputebee  automatically collects, organizes, and showcases your testimonials with minimal effort.</p>
+     <p class="font-italic">Boost your social proof effortlessly. Set it up and let it run! </p></div></div>
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading='Add Your Reviews to Your Website Effortlessly' 
@@ -91,9 +93,10 @@ image={{ src: '~/assets/images/effortlessly.svg', alt: 'Add Your Reviews to Your
       cta='Get your first Testimonial Widget in minutes!' 
       bgClass="bg-primary-10"
       isReversed >
-      Whenever you get a glowing review, you want to showcase it on your website. <br style="margin-bottom: 10px;">
-      But editing your website can be such a time-sink everytime! Not to mention all the other activities you need to put on hold!<br style="margin-bottom: 10px;">
-      Reputebee lets you add new reviews from Reputebee app effortlessly. Embed code once in your website and you can switch the reviews featured on your website whenever you like with a single tap in our app. It’s that fast and simple.
+     <p class="font-thin">Glowing reviews are great, but updating your website can be a real time sink.</p><br style="margin-bottom: 10px;">
+      <p>With Reputebee, adding new reviews is a breeze. <span class="font-medium">Embed the code once on your website, and you can effortlessly switch featured reviews in our app with a single tap.</span></p>
+      <p>It's quick and hassle-free.</p>
+
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading='Discover and Feature Reviews from Different Platforms' 
@@ -101,30 +104,30 @@ image={{ src: '~/assets/images/DiscoverDifferentPlatforms.svg', alt: 'Discover a
       image_alt='Discover and Feature Reviews from Different Platforms'
       bgClass="bg-secondary-25"
       cta='Gather Your Testimonials Together!'>
-      You want to leverage every valuable testimonial but they get lost through the cracks!<br style="margin-bottom: 10px;">
-      Monitoring different platforms for new reviews and the struggles to embed them in your site is a real drain. <br style="margin-bottom: 10px;"> 
-      Reputebee monitors and discovers new reviews from various sources with an approval process. Get new reviews featured at the click of a button.
+      <p class="font-thin"> You want to leverage every valuable testimonial but they get lost through the cracks!</p><br style="margin-bottom: 10px;">
+      <p> Monitoring different platforms for new reviews and the struggles to embed them in your site is a real drain.</p><br style="margin-bottom: 10px;"> 
+      <p class="font-medium">Reputebee monitors and discovers new reviews from various sources with an approval process. Get new reviews featured at the click of a button.</p>
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading='Showcase Testimonials from every Ideal Customers Profile' 
 image={{ src: '~/assets/images/IdealCustomersProfile.svg', alt: 'Showcase Testimonials from every Ideal Customers Profile' , objectFit: 'fill'}}
 
-      image_alt='Showcase Testimonials from every Ideal Customers Profile'
+      image_alt='Showcase Testimonials for every Ideal Customers Profile'
       cta='Tailor Your Pitch with Reputebee!' 
       bgClass="bg-secondary-10"
       isReversed>
-      You want to show your Customers how your product solves their specific problems. <br style="margin-bottom: 10px;">
-      But making a landing page that resonates with different customer segments is a challenge. <br style="margin-bottom: 10px;"> 
-      Reputebee helps you collect and display testimonials from every ideal customer profile on your website. This helps you build trust and loyalty with relevant and personalized social proof.
+      <p class="font-thin">Struggling to create a landing page that connects with diverse customer segments?</p> <br style="margin-bottom: 10px;">
+      <p>Solving problems for your customers is vital, but it can be tough to resonate with everyone.</p>
+     <br style="margin-bottom: 10px;"> 
+    <p class="font-medium">Reputebee. Easily gather and showcase testimonials from every ideal customer profile on your website. Build trust and loyalty with personalized social proof.</p>
 
 </FlowbiteFeatures>
 
 <FlowbiteFeatures heading="Don't Sacrifice Page Speed for social proof" 
 image={{ src: '~/assets/images/speed.svg', alt: 'Don\'t Sacrifice Page Speed for social proof' , objectFit: 'fill'}}
       image_alt="Don't Sacrifice Page Speed for social proof" >
-      You want to showcase testimonials from different sources, to highlight your customers trust.<br style="margin-bottom: 10px;">
-      But  tweet embeds and other testimonial embeds ruin your website’s performance and appearance. <br style="margin-bottom: 10px;"> 
-      With Reputebee, you can feature reviews from all sources on your landing page with super-fast page load time and uniform, stunning UI.
+      <p class="font-thin">Embedding tweets and testimonials can harm your website's performance and looks.</p><br style="margin-bottom: 10px;">
+<p class="font-medium"> Reputebee displays reviews from all sources on your landing page with lightning-fast load times and a sleek, consistent UI.</p> 
 
 </FlowbiteFeatures>
 
@@ -134,8 +137,38 @@ image={{ src: '~/assets/images/amplify.svg', alt: 'Unleash Trust, Amplify Conver
       cta='Lets Ignite Growth with Social Proof!' 
       bgClass="bg-primary-10"
       isReversed>
-      Reputebee helps in inspiring potential clients through authentic praise captured for specific usecases and customer segments. </br>
-      Witness conversions surge as prospects, influenced by powerful social proof, become eager customers. Elevate sales, diminish churn, and foster unwavering credibility and loyalty.
+<p class="font-mediurm">Watch conversions soar as prospects, driven by powerful social proof, become enthusiastic customers.</p>
+<div class="grid grid-cols-2 my-6 gap-4 md:gap-8">
+<div class="py-2 flex flex-col items-center border rounded rounded-lg border-primary-50 bg-primary-25">
+  <Icon
+  name='flat-color-icons:sales-performance'
+  class="mb-2 w-10 h-10"/>
+  <p class="text-xs font-medium text-center">Boost Sales</p>
+  </div>
+
+  <div class="py-2 flex flex-col items-center border rounded rounded-lg border-primary-50 bg-primary-25">
+    <Icon
+    name='flat-color-icons:approval'
+    class="mb-2 w-10 h-10"/>
+    <p class="text-xs font-medium text-center">Cultivate Unwavering Loyalty</p>
+    </div>
+
+    <div class="py-2 flex flex-col items-center border rounded rounded-lg border-primary-50 bg-primary-25">
+      <Icon
+      name='flat-color-icons:refresh'
+      class="mb-2 w-10 h-10"/>
+      <p class="text-xs font-medium text-center">Reduce Churn, Increase Renewals</p>
+      </div>
+
+      <div class="py-2 flex flex-col items-center border rounded rounded-lg border-primary-50 bg-primary-25">
+        <Icon
+        name='flat-color-icons:collaboration'
+        class="mb-2 w-10 h-10"/>
+        <p class="text-xs font-medium text-center">Supercharge Customer Engagement</p>
+        </div>
+      
+
+  </div>
 </FlowbiteFeatures> <!-- -->
 
 
@@ -221,67 +254,7 @@ image={{
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    tagline="Components"
-    items={[
-      {
-        title: 'Headers',
-        description: "Ever tried driving without GPS? Boom! That's why websites need headers for direction.",
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          "Picture a superhero landing – epic, right? That's the job of a Hero section, making grand entrances!",
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Where websites strut their stuff and show off superpowers. No holding back on the bragging rights here!',
-        icon: 'flat-color-icons:approval',
-      },
-      {
-        title: 'Content',
-        description:
-          "Dive into the meat and potatoes of a site; without it, you'd just be window shopping. Content is king.",
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'That enthusiastic friend who\'s always urging, "Do it! Do it!"? Yeah, that\'s this button nudging you towards adventure.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description: 'Behold the dessert menu of the website world. Tempting choices await, can you resist?',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description: 'Step into the gossip corner! Here, other visitors spill the beans and share the juicy details.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Like a digital mailbox, but faster! Drop a line, ask a question, or send a virtual high-five. Ding! Message in.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description: "The footer's like the credits of a movie but sprinkled with easter eggs. Time to hunt!",
-        icon: 'flat-color-icons:database',
-      },
-    ]}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </Features2>
+ 
 
   <!-- HighlightedPosts Widget ******* -->
 
