@@ -10,6 +10,7 @@ const {
   callToAction = await Astro.slots.render('callToAction'),
   callToAction2 = await Astro.slots.render('callToAction2'),
   image = await Astro.slots.render('image'),
+  image_vert = await Astro.slots.render('image'),
 } = Astro.props;
 ---
 
@@ -103,7 +104,7 @@ const {
       <div class="col-span-2">
         {
           image && (
-            <div class="relative m-auto max-w-6xl">
+            <div class="relative m-auto max-w-6xl hidden md:block">
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
@@ -116,6 +117,26 @@ const {
                   height={500}
                   objectFit="fill"
                   {...image}
+                />
+              )}
+            </div>
+          )
+        }
+        {
+          image_vert && (
+            <div class="relative m-auto max-w-6xl md:hidden">
+              {typeof image_vert === 'string' ? (
+                <Fragment set:html={image_vert} />
+              ) : (
+                <Image
+                  class="mx-auto rounded-md w-full"
+                  widths={[400, 768, 1024, 2040]}
+                  sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+                  loading="eager"
+                  width={600}
+                  height={600}
+                  objectFit="fill"
+                  {...image_vert}
                 />
               )}
             </div>
