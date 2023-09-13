@@ -11,6 +11,7 @@ const {
   callToAction2 = await Astro.slots.render('callToAction2'),
   image = await Astro.slots.render('image'),
   image_vert = await Astro.slots.render('image'),
+  labels = false,
 } = Astro.props;
 ---
 
@@ -82,6 +83,7 @@ const {
               )
             }
           </div>
+          { labels &&
           <div class="max-w-max m-auto mt-2">
             <div class="flex flex-row gap-4">
               <div class="flex flex-row gap-1">
@@ -98,6 +100,7 @@ const {
               </div>
             </div>
           </div>
+        }
         </div>
         {content && <Fragment set:html={content} />}
       </div>
