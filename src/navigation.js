@@ -207,7 +207,7 @@ export const footerData = {
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://twitter.com/reputebee' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/reputebee/' },
-    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-producthunt', href: 'https://www.producthunt.com/@reputebeelaunch' },
+    { ariaLabel: 'Producthunt', icon: 'tabler:brand-producthunt', href: 'https://www.producthunt.com/@reputebeelaunch' },
     
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
         // { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },

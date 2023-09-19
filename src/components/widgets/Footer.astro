@@ -42,34 +42,6 @@ const { socialLinks = [], secondarybaseLinks = [], links = [], footNote = '', th
           <a class="inline-block font-bold text-xl m-auto" href={getHomePermalink()}>
             <Logo />
           </a>
-          <!-- <div class="justify-self-end">
-            <div class="md:flex md:items-center md:justify-between py-3 md:py-4">
-              {
-                socialLinks?.length ? (
-                  <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0 rtl:ml-0 rtl:-mr-2 rtl:md:ml-0 rtl:md:mr-4">
-                    {socialLinks.map(({ ariaLabel, href, text, icon }) => (
-                      <li> 
-                        <a
-                          class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
-                          aria-label={ariaLabel}
-                          href={href}
-                        >
-                          {icon && <Icon name={icon} class="w-5 h-5" />}
-                          <Fragment set:html={text} />
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                ) : (
-                  ''
-                )
-              }
-              <div class="text-sm mr-4 dark:text-slate-400">
-                <!-- <Fragment set:html={footNote} /> 
-              </div>
-            </div> 
-          </div>-->
-          <!-- <a class="inline-block font-bold text-xl" href={getHomePermalink()}>{SITE_CONFIG?.name}</a> -->
         </div>
         <div class="text-sm text-muted m-auto text-center">
           
@@ -131,8 +103,6 @@ const { socialLinks = [], secondarybaseLinks = [], links = [], footNote = '', th
           ''
         )
       }
-    
-
     </div> 
   </div>
 
