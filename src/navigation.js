@@ -37,7 +37,7 @@ export const headerData = {
     },
     {
       text: 'Blog',
-      href: getBlogPermalink(),
+      href: getBlogPermalink('/blog'),
      },
       {
           text: 'About us',
@@ -188,9 +188,9 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Support', href: '#' },
+        { text: 'About', href: getPermalink('/about') },
+        { text: 'Blog', href: getPermalink('/blog') },
+        { text: 'Support', href: 'https://forms.gle/dLJFjKiahKkzRBuY6' },
         // { text: 'Press', href: '#' },
         // { text: 'Inclusion', href: '#' },
         // { text: 'Social Impact', href: '#' },
