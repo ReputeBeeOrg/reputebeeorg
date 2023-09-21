@@ -18,7 +18,7 @@ We operate the website[http://www.reputebee.com](http://www.reputebee.com/)(the 
 
   
 
-You can contact us byemail at  <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#97;&#100;&#109;&#105;&#110;&#46;&#99;&#111;&#109;">this email</a>  or by mail to 3 Moovendar St , Chennai , TN 600078 , India .
+You can contact us byemail at  <a href="&#77;&#97;&#73;&#108;&#84;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#114;&#101;&#112;&#117;&#116;&#101;&#98;&#101;&#101;&#46;&#99;&#111;&#109;">this email</a>  or by mail to 3 Moovendar St , Chennai , TN 600078 , India .
 
   
 
@@ -165,7 +165,7 @@ Except as set out in this section or elsewhere in our Legal Terms, no part of th
 
   
 
-If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to:  <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#97;&#100;&#109;&#105;&#110;&#46;&#99;&#111;&#109;">this email</a> . If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
+If you wish to make any use of the Services, Content, or Marks other than as set out in this section or elsewhere in our Legal Terms, please address your request to:  <a href="&#77;&#97;&#73;&#108;&#84;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#114;&#101;&#112;&#117;&#116;&#101;&#98;&#101;&#101;&#46;&#99;&#111;&#109;">this email</a> . If we ever grant you the permission to post, reproduce, or publicly display any part of our Services or Content, you must identify us as the owners or licensors of the Services, Content, or Marks and ensure that any copyright or proprietary notice appears or is visible on posting, reproducing, or displaying our Content.
 
   
 
@@ -322,7 +322,7 @@ All purchases are non-refundable. You can cancel your subscription at any time b
 
   
 
-If you are unsatisfied with our Services, please email us at  <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#97;&#100;&#109;&#105;&#110;&#46;&#99;&#111;&#109;">this email</a>  .
+If you are unsatisfied with our Services, please email us at  <a href="&#77;&#97;&#73;&#108;&#84;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#114;&#101;&#112;&#117;&#116;&#101;&#98;&#101;&#101;&#46;&#99;&#111;&#109;">this email</a>  .
 
   
 
@@ -705,4 +705,4 @@ In order to resolve a complaint regarding the Services or to receive further inf
 
 **India**
 
-**** <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#97;&#100;&#109;&#105;&#110;&#46;&#99;&#111;&#109;">this email</a> ****
+**** <a href="&#77;&#97;&#73;&#108;&#84;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#114;&#101;&#112;&#117;&#116;&#101;&#98;&#101;&#101;&#46;&#99;&#111;&#109;">this email</a> ****
