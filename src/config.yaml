@@ -11,21 +11,22 @@ metadata:
   title:
     default: ReputeBee
     template: '%s — ReputeBee'
-  description: "\U0001F680 collect, curate and showcase Testimonials effortlessly to build trust and ignite sales."
+  description: "ReputeBee helps you collect, organize, and display testimonials with ease. Build trust and loyalty with relevant and personalized social proof."
   robots:
     index: true
     follow: true
   openGraph:
     site_name: ReputeBee
     images:
-      - url: '~/assets/images/default.png'
-        width: 1200
-        height: 628
+      - url: '~/assets/images/effortlessly.svg' 
+        width: 1000
+        height: 750
     type: website
   twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
-    cardType: summary_large_image
+    handle: '@sharmi1a'
+    site: '@sharmi1a'
+    cardType: summary
+
 
 i18n:
   language: en
