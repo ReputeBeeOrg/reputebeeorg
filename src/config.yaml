@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: ReputeBee
     images:
-      - url: '~/assets/images/effortlessly.png' 
+      - url: '~/assets/images/effortlessly.jpg' 
         width: 1000
         height: 750
     type: website
