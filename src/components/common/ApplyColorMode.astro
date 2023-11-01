@@ -7,7 +7,7 @@ import { UI_CONFIG } from "~/utils/config";
 <script is:inline define:vars={{ defaultTheme: UI_CONFIG.theme || "system" }}>
   function applyTheme(theme) {
     if (theme === "dark") {
-      document.documentElement.classList.add("dark");
+      //document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
     }
@@ -26,7 +26,7 @@ import { UI_CONFIG } from "~/utils/config";
     localStorage.theme === "dark" ||
     (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)
   ) {
-    applyTheme("dark");
+    applyTheme("light");
   } else {
     applyTheme("light");
   }

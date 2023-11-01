@@ -17,7 +17,7 @@ import { UI_CONFIG } from '~/utils/config';
     localStorage.theme === 'dark' ||
     (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
   ) {
-    applyTheme('dark');
+    applyTheme('light');
   } else {
     applyTheme('light');
   }
