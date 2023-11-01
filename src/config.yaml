@@ -21,6 +21,7 @@ metadata:
       - url: '~/assets/images/effortlessly.jpg' 
         width: 1000
         height: 750
+        type: "image/jpeg"
     type: website
   twitter:
     handle: '@sharmi1a'
