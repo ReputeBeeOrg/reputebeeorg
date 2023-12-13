@@ -1,14 +1,14 @@
 ---
-import { SITE_CONFIG } from '~/utils/config';
+import { SITE } from '~/utils/config';
 import Logo from '~/assets/images/logo2.svg';
 import Image from './common/Image.astro';
 ---
 
 <span class="self-center  text-2xl md:text-xl font-bold whitespace-nowrap dark:text-white"><div class="flex flex-row gap-2 items-center"> 
- <Image src={Logo} alt={SITE_CONFIG?.name} class="w-5 h-5 md:w-6 md:h-6" />
+ <Image src={Logo} alt={SITE?.name} class="w-5 h-5 md:w-6 md:h-6" />
 
 <span class="text-primary-700 text-lg align-top">
-  {SITE_CONFIG?.name} 
+  {SITE?.name} 
 </span>
 
 

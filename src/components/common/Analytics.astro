@@ -1,12 +1,12 @@
 ---
 import { GoogleAnalytics } from '@astrolib/analytics';
-import { ANALYTICS_CONFIG } from '~/utils/config';
+import { ANALYTICS } from '~/utils/config';
 ---
 
 {
-  ANALYTICS_CONFIG?.vendors?.googleAnalytics?.id ? (
+  ANALYTICS?.vendors?.googleAnalytics?.id ? (
     <GoogleAnalytics  type="text/plain"
-    data-cookiecategory="analytics" id={String(ANALYTICS_CONFIG.vendors.googleAnalytics.id)} partytown={ANALYTICS_CONFIG?.vendors?.googleAnalytics?.partytown} />
+    data-cookiecategory="analytics" id={String(ANALYTICS.vendors.googleAnalytics.id)} partytown={ANALYTICS?.vendors?.googleAnalytics?.partytown} />
   ) : null
 } 
 

@@ -1,6 +1,6 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { SITE_CONFIG } from '~/utils/config';
+import { SITE } from '~/utils/config';
 import { getHomePermalink } from '~/utils/permalinks';
 // import Logo from '~/assets/images/logo2.svg';
 // import Image from '~/components/common/Image.astro';
@@ -37,7 +37,7 @@ const { socialLinks = [], secondarybaseLinks = [], links = [], footNote = '', th
       <div class="col-span-12 lg:col-span-4">
         <div class="mb-2 grid gap-4 grid-cols-1 justify-self-center item-center align-center">
           <!-- <a class="inline-block font-bold text-xl" href={getHomePermalink()}>
-            <Image src={Logo} alt={SITE_CONFIG?.name} class="w-5 h-5 md:w-6 md:h-6" />
+            <Image src={Logo} alt={SITE?.name} class="w-5 h-5 md:w-6 md:h-6" />
           </a> -->
           <a class="inline-block font-bold text-xl m-auto" href={getHomePermalink()}>
             <Logo />
