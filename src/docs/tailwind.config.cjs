@@ -1,4 +1,5 @@
 
+import starlightPlugin from '@astrojs/starlight-tailwind';
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 
@@ -9,11 +10,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primarybase: 'var(--aw-color-primary)',
-        secondarybase: 'var(--aw-color-secondary)',
-        accent: 'var(--aw-color-accent)',
-        default: 'var(--aw-color-text-default)',
-        muted: 'var(--aw-color-text-muted)',
         secondary: {
           10: "#fffaf7", //Generated using https://mdigi.tools/lighten-color/#fff3ea
           25: "#fff3ea",
@@ -43,7 +39,21 @@ module.exports = {
         800: "#34126F",
         900: "#240754",  
       },
-      grey : { //blue-grey
+      accent: { //purple
+        10: "#f9f7fd",
+        25: "#f0ecf9",
+        50: "#EAE2F8",
+        100: "#CFBCF2",
+        200: "#A081D9",
+        300: "#8662C7",
+        400: "#724BB7",
+        500: "#653CAD",
+        600: "#51279B",
+        700: "#421987",
+        800: "#34126F",
+        900: "#240754",  
+      },
+      gray : { //blue-grey
         50: "#F0F4F8",
         100: "#D9E2EC",
         200: "#BCCCDC",
@@ -117,7 +127,7 @@ module.exports = {
   },
   plugins: [require('@tailwindcss/typography'),
             require('flowbite/plugin'),
-           // starlightPlugin()
+           starlightPlugin()
 ],
   darkMode: 'class',
 };
