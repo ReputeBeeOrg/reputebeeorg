@@ -42,7 +42,9 @@ export const headerData = {
       {
           text: 'About us',
           href: getPermalink('/about'),
-        }
+        },
+        {text: 'Docs',
+        href: getPermalink('/docs')}
 
     // {
     //   text: 'Pages',

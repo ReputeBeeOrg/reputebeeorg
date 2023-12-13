@@ -47,6 +47,7 @@ export default defineConfig({
     customCss: [
       // Path to your Tailwind base styles:
       './src/docs/assets/styles/tailwind.css',
+      '@fontsource-variable/inter'
     ],
     sidebar: [
       {
