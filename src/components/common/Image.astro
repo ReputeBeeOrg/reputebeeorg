@@ -17,6 +17,8 @@ type ImageType = {
 const props = Astro.props;
 
 if (props.alt === undefined || props.alt === null) {
+  console.log("props", props);
+  console.log("Image Alt not present");
   throw new Error();
 }
 

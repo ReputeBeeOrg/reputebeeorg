@@ -1,7 +1,7 @@
 ---
 import '~/assets/styles/tailwind.css';
 
-import { I18N_CONFIG } from "~/utils/config";
+import { I18N } from '~/utils/config';
 
 import CommonMeta from '~/components/common/CommonMeta.astro';
 import CookieConsent from '~/components/common/CookieConsent.astro';
@@ -13,6 +13,9 @@ import SiteVerification  from "~/components/common/SiteVerification.astro"
 import Analytics  from "~/components/common/Analytics.astro"
 import BasicScripts from '~/components/common/BasicScripts.astro';
 import Fonts from '~/components/common/Fonts.astro';
+// Uncomment line below to activate View Transitions
+// import { ViewTransitions } from 'astro:transitions';
+
 import { MetaData as MetaDataType } from '~/types';
 
 export interface Props {
@@ -20,7 +23,7 @@ export interface Props {
 }
 
 const { metadata = {} } = Astro.props;
-const { language, textDirection } = I18N_CONFIG;
+const { language, textDirection } = I18N;
 ---
 
 <!DOCTYPE html>
@@ -36,6 +39,8 @@ const { language, textDirection } = I18N_CONFIG;
     <SiteVerification />
     <Analytics />
     <Fonts />
+    <!-- Uncomment line below to activate View Transitions -->
+    <!-- <ViewTransitions fallback="swap" /> -->
   </head>
 
   <body class="antialiased text-default bg-page tracking-tight">
