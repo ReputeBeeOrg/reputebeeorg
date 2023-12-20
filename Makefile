@@ -2,10 +2,10 @@ up:
 	clear
 	npm run start
 stop:
-	docker compose stop
+	npm run stop
 down:
 	clear
-	docker compose down
+	npm run stop
 
 build:
 	clear
