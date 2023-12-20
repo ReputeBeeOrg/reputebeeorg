@@ -64,11 +64,11 @@ export default defineConfig({
       {
         label: 'Integrations',
         // Autogenerate a group of links for the 'guides' directory.
-        autogenerate: { directory: 'integrations' },
+        autogenerate: { directory: '/docs/integrations' },
       },
       {
         label: 'Widgets',
-        autogenerate: { directory: 'widgets' }
+        autogenerate: { directory: '/docs/widgets' }
       },
 
       {
