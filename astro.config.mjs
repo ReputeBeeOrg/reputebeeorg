@@ -51,15 +51,15 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        label: 'Introduction',
-        // Autogenerate a group of links for the 'guides' directory.
-        link: '/docs/index',
-      },
-      {
         label: 'Getting Started',
         // Autogenerate a group of links for the 'guides' directory.
-        link: '/docs/getting-started',
+        link: '/docs/',
       },
+      // {
+      //   label: 'Getting Started',
+      //   // Autogenerate a group of links for the 'guides' directory.
+      //   link: '/docs/getting-started',
+      // },
 
       {
         label: 'Integrations',
