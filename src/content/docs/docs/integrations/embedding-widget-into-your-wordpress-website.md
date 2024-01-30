@@ -1,5 +1,5 @@
 ---
-title: Embedding Widget into Your WordPress Website
+title: Embedding Widget into Your WordPress page
 description: Step-by-step instructions on how to add Testimonials Widget to your WordPress website
 ---
 

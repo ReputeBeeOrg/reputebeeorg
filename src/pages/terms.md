@@ -491,7 +491,7 @@ We reserve the right, but not the obligation, to: (1) monitor the Services for v
 
   
 
-We care about data privacy and security. Please review our Privacy Policy: **[http://www.reputebee.com/legal/privacy.html](http://www.reputebee.com/legal/privacy.html)**. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States , Germany and India . If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States , Germany and India , then through your continued use of the Services, you are transferring your data to the United States , Germany and India , and you expressly consent to have your data transferred to and processed in the United States , Germany and India .
+We care about data privacy and security. Please review our Privacy Policy: **[https://www.reputebee.com/legal/privacy.html](https://www.reputebee.com/legal/privacy.html)**. By using the Services, you agree to be bound by our Privacy Policy, which is incorporated into these Legal Terms. Please be advised the Services are hosted in the United States , Germany and India . If you access the Services from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in the United States , Germany and India , then through your continued use of the Services, you are transferring your data to the United States , Germany and India , and you expressly consent to have your data transferred to and processed in the United States , Germany and India .
 
   
 

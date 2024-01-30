@@ -2,7 +2,7 @@
 publishDate: 2023-08-28T00:00:00Z
 title: Embedding JavaScript code into no-code platforms
 excerpt: Learn how to embed JavaScript code into no-code platforms like Webflow, Netlify, WordPress, and more with this straightforward and helpful guide. From using plugins and custom code to editing functions.php and adding inline or external scripts, this guide has got you covered. Follow the step-by-step instructions and start embedding JavaScript code into your website today.
-image: /src/assets/images/blog/EmbeddingReviewBlog.jpg
+image: /src/assets/images/blog/embedding_review_blog.jpg
 category: Tutorials
 tags:
   - Javascript
