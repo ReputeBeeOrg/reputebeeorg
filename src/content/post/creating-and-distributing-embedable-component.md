@@ -14,8 +14,8 @@ tags:
   - HTML
   - CSS
   - Svelte
-metadata:
-  canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+# metadata:
+#   canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
 ---
 
 ## Embedding JavaScript code into no-code platforms

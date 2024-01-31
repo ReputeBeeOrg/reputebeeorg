@@ -5,7 +5,7 @@ layout: '~/layouts/MarkdownLayout.astro'
 
 **Last updated April 06, 2023**
 
-This Cookie Policy explains how IOFuze ("**Company**," "**we**," "**us**," and "**our**") uses cookies and similar technologies to recognize you when you visit our website at  [http://www.reputebee.com](http://www.reputebee.com) ("**Website**"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
+This Cookie Policy explains how IOFuze ("**Company**," "**we**," "**us**," and "**our**") uses cookies and similar technologies to recognize you when you visit our website at  [https://reputebee.com](https://reputebee.com) ("**Website**"). It explains what these technologies are and why we use them, as well as your rights to control our use of them.
 
 In some cases we may use cookies to collect personal information, or that becomes personal information if we combine it with other information.
 

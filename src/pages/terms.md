@@ -14,7 +14,7 @@ We are IOFuze ( ' **Company**', ' **we**', ' **us**', or ' **our**' ) , a compan
 
   
 
-We operate the website[http://reputebee.com](http://reputebee.com/)(the ' **Site**' ) , as well as any other related products and services that refer or link to these legal terms (the ' **Legal Terms**' ) (collectively, the ' **Services**' ).
+We operate the website[https://reputebee.com](https://reputebee.com/)(the ' **Site**' ) , as well as any other related products and services that refer or link to these legal terms (the ' **Legal Terms**' ) (collectively, the ' **Services**' ).
 
   
 
