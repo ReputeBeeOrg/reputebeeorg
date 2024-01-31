@@ -85,7 +85,7 @@ const getSite = () => {
     name: DEFAULT_SITE_NAME,
     site: 'https://demo.reputebee.com',
     base: '/',
-    trailingSlash: false,
+    trailingSlash: true,
 
     googleSiteVerificationId: '',
   };
