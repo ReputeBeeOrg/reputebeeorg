@@ -30,9 +30,8 @@ export const headerData = {
     },
     {
       text: 'Contact',
-      // href: getPermalink('/contact'),
-      target: '_blank',
-      href: 'https://forms.gle/dLJFjKiahKkzRBuY6',
+      href: getPermalink('/contact'),
+
       
     },
     {
