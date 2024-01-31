@@ -8,7 +8,7 @@ _Last updated_: April 06, 2023
 This privacy notice for IOFuze ( ' **Company** ', '**we**', '**us**', or '**our**' ), describes how and why we might collect, store, use, and/or share ( '**process**' ) your information when you use our services ('**Services**' ), such as when you: 
 
 
-- Visit our website at http://www.reputebee.com , or any website of ours that links to this privacy notice
+- Visit our website at https://reputebee.com , or any website of ours that links to this privacy notice
 - Engage with us in other related ways, including any sales, marketing, or events
 
 **Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at 
@@ -32,7 +32,7 @@ This privacy notice for IOFuze ( ' **Company** ', '**we**', '**us**', or '**our*
 
 **What are your rights?** Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about [your privacy rights](#privacyrights).
 
-**How do you exercise your rights?** The easiest way to exercise your rights is by visiting [http://www.reputebee.com/contactus.html](http://www.reputebee.com/contactus.html) , or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
+**How do you exercise your rights?** The easiest way to exercise your rights is by visiting [https://reputebee.com/contact/](https://reputebee.com/contact/) , or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
 
 Want to learn more about what IOFuze does with any information we collect? [Review the privacy notice in full](#toc).
 
@@ -308,7 +308,7 @@ If you would at any time like to review or change the information in your accoun
 
 Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.
 
-**Cookies and similar technologies:** Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. You may also [opt out of interest-based advertising by advertisers](http://www.aboutads.info/choices/) on our Services.
+**Cookies and similar technologies:** Most Web browsers are set to accept cookies by default. If you prefer, you can usually choose to set your browser to remove cookies and to reject cookies. If you choose to remove cookies or reject cookies, this could affect certain features or services of our Services. You may also [opt out of interest-based advertising by advertisers](https://www.aboutads.info/choices/) on our Services.
 
 If you have questions or comments about your privacy rights, you may email us at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#97;&#100;&#109;&#105;&#110;&#46;&#99;&#111;&#109;">this email</a> .
 
@@ -565,7 +565,7 @@ Exercise your rights provided under the Virginia CDPA
 
 More information about our data collection and sharing practices can be found in this privacy notice.
 
-You may contact us by email at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#97;&#100;&#109;&#105;&#110;&#46;&#99;&#111;&#109;">this email</a> , by visiting [http://www.reputebee.com/contactus.html](http://www.reputebee.com/contactus.html) , or by referring to the contact details at the bottom of this document.
+You may contact us by email at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#117;&#112;&#112;&#111;&#114;&#116;&#64;&#97;&#100;&#109;&#105;&#110;&#46;&#99;&#111;&#109;">this email</a> , by visiting [https://reputebee.com/contact/](https://reputebee.com/contact/) , or by referring to the contact details at the bottom of this document.
 
 If you are using an authorised agent to exercise your rights, we may deny a request if the authorised agent does not submit proof that they have been validly authorised to act on your behalf.
 
@@ -608,4 +608,4 @@ India
 
 **18\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?**
 
-Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit: [http://www.reputebee.com/contactus.html](http://www.reputebee.com/contactus.html) .
+Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit: [https://reputebee.com/contact/](https://reputebee.com/contact/) .
