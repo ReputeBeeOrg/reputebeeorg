@@ -2,7 +2,7 @@
 publishDate: 2023-08-28T00:00:00Z
 title: Creating and distributing embedable components in Javascript
 excerpt: Learn how to create a component and distribute it. Understand the problems you need to consider when creating a component.
-image: /src/assets/images/blog/embedding_review_blog.jpg
+image: /src/assets/images/about.jpg
 category: Tutorials
 draft: true
 tags:
