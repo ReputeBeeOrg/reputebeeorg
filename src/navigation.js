@@ -69,7 +69,7 @@ export const footerData = {
         // { text: 'Security', href: '#' },
         // { text: 'Team', href: '#' },
         // { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
+        // { text: 'Customer stories', href: '#' },
         { text: 'Pricing', href: '#' },
         // { text: 'Resources', href: '#' },
       ],
