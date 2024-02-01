@@ -6,6 +6,7 @@ import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import Content from '~/components/widgets/Content.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 
 const metadata = {
   title: 'About us',
@@ -29,6 +30,7 @@ const metadata = {
     </Fragment>
  
   </Hero>
+  <WidgetWrapper >
   <p class="prose m-auto my-4">We understand the passion, dedication, and sheer determination it takes to birth and nurture your brainchild into existence. From those initial days of crafting your product with love, sweat, and tears to orchestrating marketing campaigns that could rival a symphony, juggling countless responsibilities - building the brand, honing product-market fit, generating leads, nurturing prospects, and converting them into loyal customers.  you've been on an epic journey.</p>
 
   <p class="prose m-auto my-4">And then, the moment you've been waiting for finally arrives: your users start gushing and raving about your creation. It's that magical point in an entrepreneur's voyage when your hard work feels validated. You want to share these triumphs with the world, to showcase your worth to potential customers, but alas, By the time you finally have a moment to bask in the glow of your users' praise, the urgent has already overtaken the important. You postpone the good stuff, gathering those users' love, hoping you can come back someday.</p>
@@ -52,7 +54,7 @@ const metadata = {
 
 
  <p class="prose m-auto my-4">Would you like to share your experiences or know more about us? You can reach us on <a href="https://twitter.com/sharmi1a">Twitter</a> and <a href="https://twitter.com/sharmi1a">LinkedIn</a></p>
-
+</WidgetWrapper>
   <!-- Stats Widget ****************** -->
 
   <!-- <Stats
