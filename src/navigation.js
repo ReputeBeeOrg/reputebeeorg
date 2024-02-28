@@ -161,8 +161,9 @@ export const footerData = {
         // { text: 'Security', href: '#' },
         // { text: 'Team', href: '#' },
         // { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
+      //  { text: 'Customer stories', href: '#' },
+        { text: 'Pricing', href: getPermalink('/pricing') },
+        
         // { text: 'Resources', href: '#' },
       ],
     },
@@ -191,7 +192,7 @@ export const footerData = {
       links: [
         { text: 'About', href: getPermalink('/about') },
         { text: 'Blog', href: getPermalink('/blog') },
-        { text: 'Support', href: 'https://forms.gle/dLJFjKiahKkzRBuY6' },
+        { text: 'Support', href: getPermalink('/contact') },
         // { text: 'Press', href: '#' },
         // { text: 'Inclusion', href: '#' },
         // { text: 'Social Impact', href: '#' },

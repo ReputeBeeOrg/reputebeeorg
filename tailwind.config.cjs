@@ -113,6 +113,15 @@ module.exports = {
         serif: ['var(--aw-font-serif)', ...defaultTheme.fontFamily.serif],
         heading: ['var(--aw-font-heading)', ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        sm: '0.7rem',
+        base: '0.9rem',
+        xl: '1.1rem',
+        '2xl': '1.25rem',
+        '3xl': '1.6rem',
+        '4xl': '2.0rem',
+        '5xl': '2.5rem',
+      }
     },
   },
   plugins: [require('@tailwindcss/typography'),
