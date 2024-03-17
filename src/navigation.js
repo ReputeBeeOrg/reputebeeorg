@@ -43,7 +43,9 @@ export const headerData = {
           href: getPermalink('/about'),
         },
         {text: 'Docs',
-        href: getPermalink('/docs')}
+        href: getPermalink('/docs')},
+        {text: 'Sample Wall Of Love',
+      href: "https://widgets.reputebee.com/static/v1/wol/wall-of-love-simple/?id=JGdwd94SCH"}
   ],
   //actions: [{ type: 'button', text: 'Download', href: 'https://github.com/onwidget/astrowind' }],
   actions: [
