@@ -1,0 +1,27 @@
+---
+import { Image } from 'astro:assets';
+const { image, text, reverse } = Astro.props;
+--- 
+
+        <div class="testimonial-container flex gap-2">
+            {reverse ? (
+
+                    <div class="w-1/3">
+                        <Image src={image} alt="Testimonial Image" />
+                    </div>
+                    <div class="w-2/3">
+                        <div class="testimonial-text">{text}</div>
+                    </div>
+                
+            ) : (
+
+                    <div class="w-2/3">
+                        <div class="testimonial-text">{text}</div>
+                    </div>
+                    <div class="w-1/3">
+                        <Image src={image} alt="Testimonial Image" />
+                        
+                    </div>
+                
+            )}
+        </div>
